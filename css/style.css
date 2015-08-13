@@ -2,37 +2,61 @@
 html{
 	margin: auto;
     width: 40%;
+    background-color: #FFFFB5;
 }
 h1{
-	border: 3px solid red;
-	padding:10px;
+	padding:.5em;
+	background-color: #FF9933;
+	border-radius:50%;
+	border: 5px solid #FFFFB5;
 }
-.head, .add {
+.head{
 	text-align: center;
+	border-color:#FFFFB5;
+	background-color: #FF9933;
+	margin-bottom: 0px;
 }
 .add, .list,.input{
 	font-size: 2em;
 }
-.add >p{
-	float: left;
-display: block;
+.add{
+width:50%;
+margin-bottom: 1em;
+font-size: 1.5em;
+	background-color: #FFFFB5;
+
+}
+body{
+	background-color: #ffffff;
+
 }
 
 .enter {
 	display: block;
 	float: right;
+	font-size: .5em;
+	margin-bottom: 1em;
+
+}
+p{
+	float:left;
+	width:80%;
 }
 
 .list {
 	padding-top: 2em;
+	    background-color: #FFFFB5;
+
+}
+.btn-default{
+	float:right;
 }
 
 .input{
-	border: 3px solid red;
-	padding:10px;
 	height: 1em;
 	width: 3em;
-	background-color: green;
+	font-size: .8em;
+	padding-left: 4em;
 }
 .delete{
 	float: right;
@@ -40,7 +64,7 @@ display: block;
 }
 
 .btn-default:hover{
-	background-color: red !important;
+	background-color: #FF9933 !important;
 }
 .fa-check-square-o{
 }
