@@ -20,13 +20,7 @@ h1 {
 .input {
   font-size: 2em;
 }
-.add {
-  width: 50%;
-  margin-bottom: 1em;
-  font-size: 1.5em;
-  background-color: #FFFFB5;
-  padding-top: .5em;
-}
+
 body {
   background-color: #ffffff;
 }
@@ -55,7 +49,7 @@ body {
   background-color: #FF9933 !important;
 }
 .form-control {
-  width: 55% !important;
+  width: 65% !important;
   display: inline-block !important;
   margin-top: 1em;
 }
