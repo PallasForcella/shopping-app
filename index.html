@@ -11,20 +11,26 @@
 </head>
 <body>
 	<h1 class="head">My Shopping List</h1>
-		<div><p class="add">Add an Item
-		</p>
+		
+<div class="form-group">
+  <label for="item">add an item</label>
+  <input type="text" class="form-control" id="usr">
 		<button class="btn btn-default" class="enter" type="submit">Enter</button>
 		</div>
 	<div class="list">
-		<p><i class="fa fa-check-square-o"></i>
-			Cream</p>
+		
+<div class="checkbox">
+  <label><input type="checkbox" value="">Eggs</label>
+</div>
 			<div class="delete"><button class="btn btn-default" type="submit">Delete</button></div>
-<p><i class="fa fa-check-square-o"></i>	Eggs</p>
-			<div class="delete"><button class="btn btn-default" type="submit">Delete</button></div>
-<p><i class="fa fa-check-square-o"></i>	Bread</p>
+
+<div class="checkbox">
+  <label><input type="checkbox" value="">Bread</label>
+</div>
 			<div class="delete"><button class="btn btn-default" type="submit">Delete</button></div>	
-<p><i class="fa fa-check-square-o"></i>	Mangos</p>
-			<div class="delete"><button class="btn btn-default" type="submit">Delete</button></div>
+<div class="checkbox disabled">
+  <label><input type="checkbox" value="" disabled>Mangos</label>
+</div>			<div class="delete"><button class="btn btn-default" type="submit">Delete</button></div>
 	</div>
 </body>
 </html>

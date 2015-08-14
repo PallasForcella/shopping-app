@@ -2,7 +2,7 @@
 html{
 	margin: auto;
     width: 40%;
-    background-color: #FFFFB5;
+    background-color: #ffffff;
 }
 h1{
 	padding:.5em;
@@ -24,6 +24,7 @@ width:50%;
 margin-bottom: 1em;
 font-size: 1.5em;
 	background-color: #FFFFB5;
+	padding-top: .5em;
 
 }
 body{
@@ -31,24 +32,22 @@ body{
 
 }
 
-.enter {
-	display: block;
-	float: right;
+
+.enter{
 	font-size: .5em;
 	margin-bottom: 1em;
-
+	float:right;
 }
-p{
+
+.checkbox{
+	margin-top: 1em;
+	display: inline-block !important;
+	width:55% !important;
 	float:left;
-	width:80%;
 }
 
-.list {
-	padding-top: 2em;
-	    background-color: #FFFFB5;
-
-}
 .btn-default{
+	margin-top: 1em;
 	float:right;
 }
 
@@ -58,13 +57,13 @@ p{
 	font-size: .8em;
 	padding-left: 4em;
 }
-.delete{
-	float: right;
-	display: block;
-}
 
 .btn-default:hover{
 	background-color: #FF9933 !important;
 }
-.fa-check-square-o{
+
+.form-control {
+	width:55% !important;
+	display: inline-block !important;
+	margin-top: 1em;
 }
