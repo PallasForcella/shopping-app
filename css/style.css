@@ -26,7 +26,6 @@ body {
   background-color: #ffffff;
 }
 .enter {
-  font-size: .5em;
   margin-bottom: 1em;
   float: right;
 }
@@ -36,7 +35,7 @@ body {
   width: 55% !important;
   float: left;
 }
-.btn-default {
+.btn-warning {
   margin-top: 1em;
   float: right;
 }
@@ -45,6 +44,9 @@ body {
   width: 3em;
   font-size: .8em;
   padding-left: 4em;
+}
+.delete{
+  margin:0px;
 }
 .btn-default:hover {
   background-color: #FF9933 !important;

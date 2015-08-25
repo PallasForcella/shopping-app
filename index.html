@@ -14,36 +14,13 @@
 <body>
   <h1 class="head">My Shopping List</h1>
 
-  <div class="form-group">
+  <form class="form-group addition">
     <label for="item">add an item</label>
-    <input type="text" class="form-control" id="usr">
-    <button class="btn btn-default" type="submit">Enter</button>
-  </div>
-  <div class="list">
-
-    <div class="checkbox">
-      <label>
-        <input type="checkbox" value="">Eggs</label>
-    </div>
-    <div class="delete">
-      <button class="btn btn-default" type="submit">Delete</button>
-    </div>
-
-    <div class="checkbox">
-      <label>
-        <input type="checkbox" value="">Bread</label>
-    </div>
-    <div class="delete">
-      <button class="btn btn-default" type="submit">Delete</button>
-    </div>
-    <div class="checkbox">
-      <label>
-        <input type="checkbox" value="">Mangos</label>
-    </div>
-    <div class="delete">
-      <button class="btn btn-default" type="submit">Delete</button>
-    </div>
-  </div>
+    <input name="item" type="text" class="form-control fooditem" id="usr">
+    <button class="btn btn-warning enter" type="submit">Enter</button>
+  </form>
+  <ul id="list">
+  </ul>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/script.js"></script>
 </body>
