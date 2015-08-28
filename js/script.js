@@ -12,11 +12,10 @@ $(document).ready(function(){
 		event.preventDefault();
 	});
 
-	// $(".delete").each(function(){
-	// $(this).click(function(e){
-	// 	e.preventDefault();
-	// 	$(this).parent().parent().parent().remove();
-	// });	
+	$(document).on("click", ".delete", function(e){
+		e.preventDefault();
+		$(this).parent().parent().parent().remove();
+	});	
 });
 
 
