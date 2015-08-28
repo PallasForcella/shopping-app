@@ -12,6 +12,11 @@ $(document).ready(function(){
 		event.preventDefault();
 	});
 
+	// $(".delete").each(function(){
+	// $(this).click(function(e){
+	// 	e.preventDefault();
+	// 	$(this).parent().parent().parent().remove();
+	// });	
 });
 
 
