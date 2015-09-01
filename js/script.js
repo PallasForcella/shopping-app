@@ -39,6 +39,8 @@
  		$(".addition").submit(function(event){
 		addItemToList($(".fooditem").val())
 		event.preventDefault();
+		
+		$(".fooditem").val("")
 	});
  
 
