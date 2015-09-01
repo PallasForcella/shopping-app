@@ -42,9 +42,9 @@
 	});
  
 
-	$(".delete").click(function(){
-		$(li).remove();
-		// event.preventDefualt isn't needed 'cause this button doesn't submit a form
- 	});
+	$(document).on("click", ".delete", function(e){
+		e.preventDefault();
+		$(this).parent().parent().parent().remove();
+	});
  });
  
