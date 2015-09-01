@@ -20,7 +20,9 @@ h1 {
 .input {
   font-size: 2em;
 }
-
+li{
+  list-style: none;
+}
 
 body {
   background-color: #ffffff;
