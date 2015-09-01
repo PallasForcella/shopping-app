@@ -1,6 +1,6 @@
 html {
   margin: auto;
-  width: 40%;
+  width: 30%;
   background-color: #ffffff;
 }
 h1 {
@@ -22,6 +22,9 @@ h1 {
 }
 li{
   list-style: none;
+}
+#list{
+  padding-left: 0px;
 }
 
 body {
@@ -54,7 +57,7 @@ body {
   background-color: #FF9933 !important;
 }
 .form-control {
-  width: 65% !important;
+  width: 60% !important;
   display: inline-block !important;
   margin-top: 1em;
 }
